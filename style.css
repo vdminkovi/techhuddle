@@ -1,0 +1,66 @@
+/* Styles go here */
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: Helvetica;
+	font-size: 12px;
+	box-sizing: border-box;
+	background: transparent;
+	color: #666;
+}
+.accordion {
+	margin: 0 auto;
+	width: 50%;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 10px;
+}
+.accordion-at {
+	margin: 5px 0;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.accordion-at dt {
+	background-color: #f4f4f4;
+	border-radius: 3px 3px 0 0;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.accordion-at dd {
+	height: 0;
+	overflow:hidden;
+	padding:0;
+	-webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.accordion dd p {
+	padding: 0 20px;
+}
+.icon {
+	float: right;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.accordion-at .icon:after {
+	content: "+";
+	display:block;
+	width: 20px;
+	height: 20px;
+}
+.accordion-at.active .icon:after {
+	content: "-";
+	display:block;
+	width: 20px;
+	height: 20px;
+}
+.accordion-at.active  dt{
+	background-color: #d2fa9d;
+	border-bottom: 1px solid #999;
+}
+.accordion-at.active dd {
+	height:auto;
+	padding: 20px 0;
+}
