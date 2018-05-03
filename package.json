@@ -1,5 +1,24 @@
 {
   "name": "accordion",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "description": "•\tHTML, CSS and JavaScript are all attempted  •\tFor it to look presentable - but does not have to be ‘pixel perfect’ •\tFAQ’s are rendered dynamically : FAQ’s are provided in JSON format. Ideally these would be AJAX’d in. •\tClean code •\tSomething that works after 30 minutes!",
+  "main": "jquery-3.3.1.min.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdminkovi/techhuddle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdminkovi/techhuddle/issues"
+  },
+  "homepage": "https://github.com/vdminkovi/techhuddle#readme"
 }
